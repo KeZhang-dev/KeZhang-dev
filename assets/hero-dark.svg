@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440">
+  <defs>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8C7CFF"/>
+      <stop offset="100%" stop-color="#3FD8E0"/>
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C6FF0" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#3FD8E0" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3FD8E0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fadeMask" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="35%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <mask id="gridMask">
+      <rect x="0" y="0" width="1200" height="440" fill="url(#fadeMask)"/>
+    </mask>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="blurLg" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="440" fill="#0A0A10"/>
+  <rect x="560" y="0" width="640" height="440" fill="url(#grid)" mask="url(#gridMask)"/>
+  <ellipse cx="945" cy="185" rx="270" ry="210" fill="url(#glowGrad)" filter="url(#blurLg)"/>
+
+  <!-- node graph -->
+  <g stroke="url(#accentGrad)" stroke-width="1.2" fill="none" opacity="0.55">
+    <line x1="900" y1="235" x2="840" y2="150"/>
+    <line x1="900" y1="235" x2="978" y2="182"/>
+    <line x1="900" y1="235" x2="838" y2="308"/>
+    <line x1="900" y1="235" x2="1004" y2="300"/>
+    <line x1="900" y1="235" x2="932" y2="340"/>
+    <line x1="978" y1="182" x2="1004" y2="300"/>
+  </g>
+  <g stroke="url(#accentGrad)" stroke-width="1.4" stroke-dasharray="5 7" opacity="0.8">
+    <line x1="900" y1="235" x2="1004" y2="300">
+      <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="3.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g fill="#0F0F17" stroke="#FFFFFF" stroke-opacity="0.12">
+    <circle cx="840" cy="150" r="4.5"/>
+    <circle cx="978" cy="182" r="4"/>
+    <circle cx="838" cy="308" r="5"/>
+    <circle cx="1004" cy="300" r="4"/>
+    <circle cx="932" cy="340" r="4.5"/>
+  </g>
+  <circle cx="1058" cy="118" r="2" fill="#FFFFFF" opacity="0.18"/>
+  <circle cx="772" cy="112" r="2" fill="#FFFFFF" opacity="0.14"/>
+  <circle cx="1122" cy="256" r="2" fill="#FFFFFF" opacity="0.16"/>
+  <circle cx="758" cy="330" r="2" fill="#FFFFFF" opacity="0.12"/>
+
+  <circle cx="900" cy="235" r="17" fill="#12121C" stroke="url(#accentGrad)" stroke-width="1.6">
+    <animate attributeName="r" values="17;18.5;17" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="235" r="17" fill="none" stroke="url(#accentGrad)" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.35;0.6;0.35" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- identity block -->
+  <text x="64" y="140" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" letter-spacing="3" fill="#8C86EE">ENGINEERING &#183; AI SYSTEMS</text>
+
+  <text x="64" y="222" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="82" font-weight="700" fill="#F4F4F7" letter-spacing="0.5">KE ZHANG</text>
+
+  <text x="64" y="264" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="23" font-weight="500" fill="#C6C6D2">Backend Developer &#183; AI Agent Developer</text>
+
+  <text x="64" y="303" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15.5" fill="#8B8B98">Backend systems and LLM-driven agents &#8212; APIs, data pipelines,</text>
+  <text x="64" y="326" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="15.5" fill="#8B8B98">and tool-calling workflows, from architecture to production.</text>
+
+  <circle cx="66" cy="393" r="3" fill="#3FD8E0">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="80" y="397" font-family="SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.5" letter-spacing="1.5" fill="#6E6E7C">CHRISTCHURCH, NZ &#183; OPEN TO BACKEND / AI AGENT ROLES</text>
+</svg>
