@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="600" height="480" role="img" aria-label="KONER system architecture: user to agent, fanning out to tools, memory and data, data to PostgreSQL">
+  <defs>
+    <linearGradient id="kn-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#08001f"/>
+      <stop offset="0.6" stop-color="#160536"/>
+      <stop offset="1" stop-color="#08001f"/>
+    </linearGradient>
+    <linearGradient id="kn-accent" gradientUnits="userSpaceOnUse" x1="140" y1="50" x2="495" y2="414">
+      <stop offset="0%" stop-color="#ff00d9"/>
+      <stop offset="100%" stop-color="#00ffe7"/>
+    </linearGradient>
+    <filter id="kn-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="kn-bigglow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <radialGradient id="kn-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff00d9" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff00d9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="kn-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ff00d9" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <clipPath id="kn-clip">
+      <rect x="1" y="1" width="598" height="478" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="598" height="478" rx="18" fill="url(#kn-sky)" stroke="#ff00d9" stroke-opacity="0.35"/>
+  <rect x="1" y="1" width="598" height="478" fill="url(#kn-grid)" clip-path="url(#kn-clip)"/>
+
+  <text x="30" y="40" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" letter-spacing="3" fill="#ff00d9">// KONER.SYSTEM_ARCHITECTURE</text>
+  <line x1="30" y1="50" x2="140" y2="50" stroke="url(#kn-accent)" stroke-width="2"/>
+
+  <!-- connectors -->
+  <g stroke="#00ffe7" stroke-opacity="0.35" stroke-width="1.2" fill="none">
+    <line x1="300" y1="106" x2="300" y2="166"/>
+    <line x1="300" y1="226" x2="200" y2="290"/>
+    <line x1="300" y1="226" x2="430" y2="290"/>
+    <line x1="430" y1="326" x2="430" y2="374"/>
+  </g>
+  <g stroke="url(#kn-accent)" stroke-width="1.4" stroke-dasharray="4 6" fill="none" opacity="0.9">
+    <line x1="300" y1="226" x2="300" y2="290"/>
+  </g>
+  <g stroke="url(#kn-accent)" stroke-width="1.8" stroke-dasharray="5 7" opacity="0.95" filter="url(#kn-glow)">
+    <line x1="300" y1="106" x2="300" y2="166">
+      <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="3.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="430" y1="326" x2="430" y2="374">
+      <animate attributeName="stroke-dashoffset" from="0" to="-24" dur="3.2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- USER -->
+  <rect x="245" y="70" width="110" height="36" rx="8" fill="#12002c" stroke="#00ffe7" stroke-opacity="0.5"/>
+  <text x="300" y="93" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#e8e6ff">USER</text>
+
+  <!-- AGENT (glow core) -->
+  <circle cx="300" cy="196" r="90" fill="url(#kn-core)" filter="url(#kn-bigglow)"/>
+  <rect x="220" y="166" width="160" height="60" rx="10" fill="#12002c" stroke="url(#kn-accent)" stroke-width="2" filter="url(#kn-glow)"/>
+  <text x="300" y="192" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="17" font-weight="700" fill="#fff8e7">AGENT</text>
+  <text x="300" y="209" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="9" letter-spacing="0.5" fill="#00ffe7">LLM TOOL-CALLING LOOP</text>
+
+  <!-- TOOLS / MEMORY / DATA -->
+  <rect x="145" y="290" width="110" height="36" rx="8" fill="#12002c" stroke="#ff00d9" stroke-opacity="0.4"/>
+  <text x="200" y="313" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#e8e6ff">TOOLS</text>
+
+  <rect x="245" y="290" width="110" height="36" rx="8" fill="#12002c" stroke="#00ffe7" stroke-opacity="0.75"/>
+  <text x="300" y="313" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#e8e6ff">MEMORY</text>
+
+  <rect x="375" y="290" width="110" height="36" rx="8" fill="#12002c" stroke="#ff00d9" stroke-opacity="0.4"/>
+  <text x="430" y="313" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#e8e6ff">DATA</text>
+
+  <!-- POSTGRESQL -->
+  <rect x="365" y="374" width="130" height="40" rx="8" fill="#0d0322" stroke="#ff00d9" stroke-opacity="0.55"/>
+  <text x="430" y="399" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="11.5" letter-spacing="0.5" fill="#ff9de9">POSTGRESQL</text>
+
+  <circle cx="30" cy="452" r="3" fill="#00ffe7">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="40" y="456" font-family="'JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="1.5" fill="#8f7fae">GEMINI API · EF CORE</text>
+
+  <text x="570" y="456" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" letter-spacing="2" fill="#ff00d9" opacity="0.8">FIG. 01</text>
+</svg>
