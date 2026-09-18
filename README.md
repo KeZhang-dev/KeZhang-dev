@@ -6,7 +6,7 @@ I'm a software developer focused on **backend and AI agent development** — tur
 
 <br/>
 
-## [ 01 ] SELECTED_WORK
+## ⚡ SELECTED_WORK
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ Shipped the Phase 1 MVP — 6 independently built features.
 
 <br/>
 
-## [ 02 ] ENGINEERING_STACK
+## 🛠️  ENGINEERING_STACK
 
 <img src="assets/stack-console.svg" alt="Engineering stack console: core systems C#, .NET, Python, TypeScript; AI layer LLM integration, AI agents, tool calling, RAG, Azure OpenAI, OpenAI API, Gemini API; data layer PostgreSQL, MySQL, SQLite; infrastructure Azure, Docker, GitHub Actions" width="100%">
 
