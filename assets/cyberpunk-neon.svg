@@ -37,12 +37,23 @@
     <clipPath id="cn-sundisk-clip">
       <circle cx="600" cy="220" r="100"/>
     </clipPath>
+    <linearGradient id="cn-scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ffe7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00ffe7" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#00ffe7" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cn-frame">
+      <rect x="0" y="0" width="1200" height="420"/>
+    </clipPath>
   </defs>
 
   <rect width="1200" height="420" fill="url(#cn-sky)"/>
 
   <!-- Sun halo -->
-  <circle cx="600" cy="220" r="220" fill="url(#cn-sun)"/>
+  <circle cx="600" cy="220" r="220" fill="url(#cn-sun)">
+    <animate attributeName="r" values="220;236;220" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="6s" repeatCount="indefinite"/>
+  </circle>
 
   <!-- Vaporwave sun disk with horizontal cuts -->
   <g>
@@ -138,4 +149,11 @@
   </g>
 
   <text x="1140" y="396" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#ff00d9" letter-spacing="3">[ dotnet ] [ postgres ] [ llm-agents ] [ docker ]</text>
+
+  <!-- system scanline sweep -->
+  <g clip-path="url(#cn-frame)">
+    <rect x="0" y="-60" width="1200" height="60" fill="url(#cn-scan)">
+      <animate attributeName="y" values="-60;420" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>

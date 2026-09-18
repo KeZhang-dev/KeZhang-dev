@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="System status online. Building practical AI-powered systems.">
+  <defs>
+    <linearGradient id="ft-border" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#ff00d9" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#ff00d9"/>
+      <stop offset="50%" stop-color="#00ffe7"/>
+      <stop offset="85%" stop-color="#00ffe7"/>
+      <stop offset="100%" stop-color="#00ffe7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ft-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c0326"/>
+      <stop offset="1" stop-color="#020007"/>
+    </linearGradient>
+    <filter id="ft-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="ft-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#00ffe7" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="200" fill="url(#ft-sky)"/>
+  <rect width="1200" height="200" fill="url(#ft-grid)"/>
+
+  <line x1="0" y1="1" x2="1200" y2="1" stroke="url(#ft-border)" stroke-width="1.6">
+    <animate attributeName="opacity" values="1;0.55;1" dur="4.5s" repeatCount="indefinite"/>
+  </line>
+
+  <g font-family="'JetBrains Mono',Consolas,monospace" font-size="11" letter-spacing="3">
+    <circle cx="508" cy="56" r="3.5" fill="#00ffe7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="522" y="60" fill="#00ffe7">SYSTEM STATUS: ONLINE</text>
+  </g>
+
+  <text x="600" y="102" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="19" font-weight="600" fill="#fff8e7">Building practical, production-grade AI agent systems.</text>
+
+  <g font-family="'JetBrains Mono',Consolas,monospace" font-size="15" text-anchor="middle" fill="#ff00d9" filter="url(#ft-glow)">
+    <text x="565" y="140">&#9670;</text>
+    <text x="600" y="140" fill="#00ffe7">&#9679;</text>
+    <text x="635" y="140">&#9670;</text>
+  </g>
+
+  <text x="600" y="176" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="2" fill="#5a5170">// END_OF_README &#183; COMPILED_BY KE_ZHANG &#183; 2026</text>
+</svg>

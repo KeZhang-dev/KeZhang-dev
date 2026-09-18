@@ -6,17 +6,7 @@ I'm a software developer focused on **backend and AI agent development** — tur
 
 <br/>
 
-## [ 01 ] NOW
-
-**BUILDING** &nbsp;`[ KONER_AGENT ]`&nbsp; — an LLM tool-calling agent that analyses time records and proposes schedule changes. [LIVE_DEMO ↗](https://green-meadow07a664610.3.azurestaticapps.net/)
-
-**SHIPPING** &nbsp;`[ FOOTPRINT_V2 ]`&nbsp; — full-stack development at Microsoft Student Accelerator 2026, Auckland. [LIVE_DEMO ↗](https://footprint-v2-client.onrender.com/)
-
-**EXPLORING** &nbsp; `[ AGENTIC_AI ]` `[ RAG ]` `[ TOOL_CALLING ]` `[ PERSISTENT_MEMORY ]`
-
-<br/>
-
-## [ 02 ] SELECTED_WORK
+## [ 01 ] SELECTED_WORK
 
 <table>
 <tr>
@@ -24,7 +14,7 @@ I'm a software developer focused on **backend and AI agent development** — tur
 
 <sub><code>[ 01 // FEATURED ]</code></sub>
 
-**KONER Agent** &nbsp;<sub><code>[ JUL 2026 — PRESENT ]</code></sub>
+**🤖 KONER Agent** &nbsp;<sub><code>[ JUL 2026 — PRESENT ]</code></sub>
 
 An LLM tool-calling agent that reads a user's time records, holds conversational context, and proposes schedule changes that require the user's approval before anything actually changes.
 
@@ -35,7 +25,7 @@ An LLM tool-calling agent that reads a user's time records, holds conversational
 
 <sub>`[ ASP.NET Core ]` `[ Gemini API ]` `[ PostgreSQL ]` `[ EF Core ]` `[ Docker ]` `[ GitHub Actions ]`</sub>
 
-**[LIVE_DEMO ↗](https://green-meadow07a664610.3.azurestaticapps.net/)**
+[![Live System](assets/cta-live-system.svg)](https://green-meadow-07a664610.3.azurestaticapps.net/)
 
 </td>
 <td width="44%" valign="top" align="center">
@@ -54,20 +44,20 @@ An LLM tool-calling agent that reads a user's time records, holds conversational
 
 <sub><code>[ 02 ]</code></sub>
 
-**Footprint v2** &nbsp;<sub><code>[ FEB 2026 — PRESENT ]</code></sub>
+**🌍 Footprint v2** &nbsp;<sub><code>[ FEB 2026 — PRESENT ]</code></sub>
 
 Online travel community platform built during the Microsoft Student Accelerator 2026 internship — RESTful APIs, JWT authentication, RBAC, post sharing, city collections, and gamification (points, leaderboards, achievement badges).
 
 <sub>`[ ASP.NET Core ]` `[ EF Core ]` `[ React ]` `[ TypeScript ]`</sub>
 
-**[LIVE_DEMO ↗](https://footprint-v2-client.onrender.com/)**
+[![View Project](assets/cta-view-project.svg)](https://footprint-v2-client.onrender.com/)
 
 </td>
 <td width="50%" valign="top">
 
 <sub><code>[ 03 ]</code></sub>
 
-**Wingman Ltd** &nbsp;<sub><code>[ JUN 2025 — NOV 2025 · INTERNSHIP ]</code></sub>
+**🧬 Wingman Ltd** &nbsp;<sub><code>[ JUN 2025 — NOV 2025 · INTERNSHIP ]</code></sub>
 
 Genetics data platform for dairy decision-making. Synced 20,000+ bull records from external sources and shipped favourites, genetic-parameter comparison, and an email-based consultation workflow.
 
@@ -75,48 +65,36 @@ Genetics data platform for dairy decision-making. Synced 20,000+ bull records fr
 
 Shipped the Phase 1 MVP — 6 independently built features.
 
+[![Open Project](assets/cta-open-project.svg)](https://wingman.pythonanywhere.com/)
+
 </td>
 </tr>
 </table>
 
 <br/>
 
-## [ 03 ] ENGINEERING_STACK
+## [ 02 ] ENGINEERING_STACK
 
-| | |
-|---|---|
-| **LANGUAGES** | `[ C# ]` `[ SQL ]` |
-| **BACKEND** | `[ .NET ]` `[ ASP.NET Core ]` `[ EF Core ]` `[ REST APIs ]` `[ JWT ]` |
-| **AI ENGINEERING** | `[ LLM Integration ]` `[ AI Agents ]` `[ Tool Calling ]` `[ RAG ]` `[ Gemini API ]` `[ Azure OpenAI ]` |
-| **DATA** | `[ PostgreSQL ]` `[ MySQL ]` `[ SQLite ]` |
-| **CLOUD & DEVOPS** | `[ Azure ]` `[ Docker ]` `[ GitHub Actions ]` |
+<img src="assets/stack-console.svg" alt="Engineering stack console: core systems C#, .NET, Python, TypeScript; AI layer LLM integration, AI agents, tool calling, RAG, Azure OpenAI, OpenAI API, Gemini API; data layer PostgreSQL, MySQL, SQLite; infrastructure Azure, Docker, GitHub Actions" width="100%">
+
+<sub>⚙️ Core systems &nbsp;·&nbsp; 🧠 AI layer &nbsp;·&nbsp; 🗄️ Data layer &nbsp;·&nbsp; ☁️ Infrastructure</sub>
 
 <sub>ALSO — `[ React ]` `[ TypeScript ]` `[ Next.js ]` `[ Tailwind CSS ]` &nbsp;/&nbsp; `[ Git ]` `[ GitHub ]` `[ Postman ]` `[ Linux ]` `[ Swagger ]` `[ Claude Code ]` `[ Cursor ]` `[ GitHub Copilot ]` &nbsp;/&nbsp; `[ Agile ]` `[ Scrum ]` `[ Jira ]`</sub>
 
 <br/>
 
-## [ 04 ] BUILD_LOG
+## [ 03 ] CREDENTIALS
 
-| | |
-|---|---|
-| `[ JUL 2026 ]` | KONER — agent loop, tool calling & persistent memory on Gemini + PostgreSQL |
-| `[ JUL 2026 ]` | KONER — Dockerized; GitHub Actions CI/CD to Azure |
-| `[ FEB 2026 ]` | Footprint v2 — RESTful APIs, JWT auth, RBAC & gamification (MSA 2026, Auckland) |
-| `[ NOV 2025 ]` | Wingman — shipped the Phase 1 MVP, 6 independently built features |
-| `[ JUN 2025 ]` | Wingman — synced 20,000+ bull records; built comparison & consultation workflow |
+🏆&nbsp; <img src="https://skillicons.dev/icons?i=azure" height="20" valign="middle"/> `[ AZ-900 ]` Azure Fundamentals &nbsp;·&nbsp; <img src="https://skillicons.dev/icons?i=azure" height="20" valign="middle"/> `[ AI-900 ]` Azure AI Fundamentals &nbsp;·&nbsp; <img src="https://skillicons.dev/icons?i=aws" height="20" valign="middle"/> `[ CLF-C02 ]` AWS Certified Cloud Practitioner
+
+🎓&nbsp; Master of Applied Computing — Lincoln University, New Zealand (2024–2025)
 
 <br/>
 
-## [ 05 ] CREDENTIALS
+<img src="assets/footer-neon.svg" alt="System status online. Building practical AI-powered systems." width="100%">
 
-`[ AZ-900 ]` Azure Fundamentals &nbsp;·&nbsp; `[ AI-900 ]` Azure AI Fundamentals &nbsp;·&nbsp; `[ CLF-C02 ]` AWS Certified Cloud Practitioner
-
-Master of Applied Computing — Lincoln University, New Zealand (2024–2025)
-
-<br/>
-
-## [ 06 ] CONTACT
-
-Christchurch, New Zealand &nbsp;·&nbsp; open work rights (NZ) &nbsp;·&nbsp; open to backend / AI agent developer roles
+<div align="center">
 
 [GITHUB](https://github.com/KeZhang-dev) &nbsp;·&nbsp; [LINKEDIN](https://www.linkedin.com/in/kezhang/) &nbsp;·&nbsp; [EMAIL](mailto:kzhangdevnz@gmail.com)
+
+</div>

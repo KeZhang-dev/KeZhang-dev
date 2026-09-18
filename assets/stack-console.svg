@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1160 640" width="1160" height="640" role="img" aria-label="Engineering stack: core systems C#, .NET, Python, TypeScript; AI layer LLM integration, AI agents, tool calling, RAG, Azure OpenAI, OpenAI API, Gemini API; data layer PostgreSQL, MySQL, SQLite; infrastructure Azure, Docker, GitHub Actions">
+  <defs>
+    <linearGradient id="st-border" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1160" y2="640">
+      <stop offset="0%" stop-color="#ff00d9"/>
+      <stop offset="100%" stop-color="#00ffe7"/>
+    </linearGradient>
+    <linearGradient id="st-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#08001f"/>
+      <stop offset="0.6" stop-color="#150533"/>
+      <stop offset="1" stop-color="#08001f"/>
+    </linearGradient>
+    <linearGradient id="st-scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ffe7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00ffe7" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#00ffe7" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="st-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ff00d9" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="st-clip">
+      <rect x="1" y="1" width="1158" height="638" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1158" height="638" rx="20" fill="url(#st-sky)" stroke="url(#st-border)" stroke-width="1.6"/>
+  <rect x="1" y="1" width="1158" height="638" fill="url(#st-grid)" clip-path="url(#st-clip)"/>
+
+  <text x="30" y="40" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" letter-spacing="3" fill="#00ffe7">// ENGINEERING.STACK</text>
+  <line x1="30" y1="50" x2="170" y2="50" stroke="url(#st-border)" stroke-width="2"/>
+
+  <circle cx="1118" cy="36" r="3" fill="#e8ff3c">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1108" y="40" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" letter-spacing="2" fill="#ff00d9" opacity="0.85">STACK.STATUS: LOADED</text>
+
+  <!-- ===================== CORE_SYSTEMS ===================== -->
+  <g>
+    <text x="30" y="98" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" letter-spacing="2" fill="#00ffe7">[ CORE_SYSTEMS ]</text>
+    <line x1="30" y1="106" x2="150" y2="106" stroke="#00ffe7" stroke-opacity="0.6" stroke-width="1.5"/>
+
+    <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#d9d6f0" text-anchor="middle">
+      <image href="https://skillicons.dev/icons?i=cs" xlink:href="https://skillicons.dev/icons?i=cs" x="30" y="130" width="27" height="27"/>
+      <text x="43" y="171">C#</text>
+
+      <image href="https://skillicons.dev/icons?i=dotnet" xlink:href="https://skillicons.dev/icons?i=dotnet" x="135" y="130" width="27" height="27"/>
+      <text x="148" y="171">.NET</text>
+
+      <image href="https://skillicons.dev/icons?i=py" xlink:href="https://skillicons.dev/icons?i=py" x="240" y="130" width="27" height="27"/>
+      <text x="253" y="171">Python</text>
+
+      <image href="https://skillicons.dev/icons?i=ts" xlink:href="https://skillicons.dev/icons?i=ts" x="345" y="130" width="27" height="27"/>
+      <text x="358" y="171">TypeScript</text>
+    </g>
+
+    <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#9a8fc4">
+      <text x="30" y="200">[ ASP.NET Core ]&#160;&#160;[ EF Core ]&#160;&#160;[ REST APIs ]</text>
+      <text x="30" y="220">[ JWT ]&#160;&#160;[ SQL ]</text>
+    </g>
+  </g>
+
+  <!-- ===================== AI_LAYER ===================== -->
+  <g>
+    <text x="600" y="98" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" letter-spacing="2" fill="#ff00d9">[ AI_LAYER ]</text>
+    <line x1="600" y1="106" x2="700" y2="106" stroke="#ff00d9" stroke-opacity="0.65" stroke-width="1.5"/>
+
+    <!-- LLM_INTEG glyph: chip module -->
+    <g transform="translate(600,130)" stroke="#ff00d9" fill="none" stroke-width="1.4">
+      <rect x="4" y="4" width="19" height="19" rx="3"/>
+      <circle cx="13.5" cy="13.5" r="3.5" fill="#ff00d9" stroke="none"/>
+      <line x1="13.5" y1="0" x2="13.5" y2="4"/>
+      <line x1="13.5" y1="23" x2="13.5" y2="27"/>
+      <line x1="0" y1="13.5" x2="4" y2="13.5"/>
+      <line x1="23" y1="13.5" x2="27" y2="13.5"/>
+    </g>
+    <text x="613" y="171" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">LLM</text>
+    <text x="613" y="183" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">INTEGRATION</text>
+
+    <!-- AI_AGENTS glyph: hub + satellites (echoes hero graph) -->
+    <g transform="translate(705,130)" stroke="#ff00d9" fill="none" stroke-width="1.2" opacity="0.9">
+      <line x1="13.5" y1="13.5" x2="4" y2="4"/>
+      <line x1="13.5" y1="13.5" x2="24" y2="6"/>
+      <line x1="13.5" y1="13.5" x2="8" y2="25"/>
+      <circle cx="4" cy="4" r="2.2" fill="#ff00d9" stroke="none"/>
+      <circle cx="24" cy="6" r="2.2" fill="#ff00d9" stroke="none"/>
+      <circle cx="8" cy="25" r="2.2" fill="#ff00d9" stroke="none"/>
+      <circle cx="13.5" cy="13.5" r="5" fill="#12002c" stroke="#ff00d9" stroke-width="1.6"/>
+    </g>
+    <text x="718" y="171" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">AI</text>
+    <text x="718" y="183" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">AGENTS</text>
+
+    <!-- TOOL_CALLING glyph: execute block -->
+    <g transform="translate(810,130)" stroke="#ff00d9" fill="none" stroke-width="1.4">
+      <rect x="2" y="4" width="23" height="19" rx="3"/>
+      <path d="M10 9 L18 13.5 L10 18 Z" fill="#ff00d9" stroke="none"/>
+    </g>
+    <text x="823" y="171" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">TOOL</text>
+    <text x="823" y="183" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">CALLING</text>
+
+    <!-- RAG glyph: doc + lens -->
+    <g transform="translate(915,130)" stroke="#ff00d9" fill="none" stroke-width="1.4">
+      <rect x="2" y="2" width="16" height="20" rx="2"/>
+      <line x1="6" y1="8" x2="14" y2="8"/>
+      <line x1="6" y1="13" x2="14" y2="13"/>
+      <circle cx="19" cy="20" r="5" fill="#12002c"/>
+      <line x1="22.5" y1="23.5" x2="26" y2="27"/>
+    </g>
+    <text x="928" y="171" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">RAG</text>
+
+    <image href="https://skillicons.dev/icons?i=azure" xlink:href="https://skillicons.dev/icons?i=azure" x="1020" y="130" width="27" height="27"/>
+    <text x="1033" y="171" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">AZURE</text>
+    <text x="1033" y="183" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">OPENAI</text>
+
+    <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#c98fd6">
+      <text x="600" y="210">[ OpenAI API ]&#160;&#160;[ Gemini API ]</text>
+    </g>
+  </g>
+
+  <!-- ===================== DATA_LAYER ===================== -->
+  <g>
+    <text x="30" y="378" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" letter-spacing="2" fill="#00ffe7">[ DATA_LAYER ]</text>
+    <line x1="30" y1="386" x2="150" y2="386" stroke="#00ffe7" stroke-opacity="0.6" stroke-width="1.5"/>
+
+    <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#d9d6f0" text-anchor="middle">
+      <image href="https://skillicons.dev/icons?i=postgres" xlink:href="https://skillicons.dev/icons?i=postgres" x="30" y="410" width="27" height="27"/>
+      <text x="43" y="451">PostgreSQL</text>
+
+      <image href="https://skillicons.dev/icons?i=mysql" xlink:href="https://skillicons.dev/icons?i=mysql" x="135" y="410" width="27" height="27"/>
+      <text x="148" y="451">MySQL</text>
+
+      <image href="https://skillicons.dev/icons?i=sqlite" xlink:href="https://skillicons.dev/icons?i=sqlite" x="240" y="410" width="27" height="27"/>
+      <text x="253" y="451">SQLite</text>
+    </g>
+  </g>
+
+  <!-- ===================== INFRASTRUCTURE ===================== -->
+  <g>
+    <text x="600" y="378" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" letter-spacing="2" fill="#00ffe7">[ INFRASTRUCTURE ]</text>
+    <line x1="600" y1="386" x2="740" y2="386" stroke="#00ffe7" stroke-opacity="0.6" stroke-width="1.5"/>
+
+    <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#d9d6f0" text-anchor="middle">
+      <image href="https://skillicons.dev/icons?i=azure" xlink:href="https://skillicons.dev/icons?i=azure" x="600" y="410" width="27" height="27"/>
+      <text x="613" y="451">Azure</text>
+
+      <image href="https://skillicons.dev/icons?i=docker" xlink:href="https://skillicons.dev/icons?i=docker" x="705" y="410" width="27" height="27"/>
+      <text x="718" y="451">Docker</text>
+
+      <image href="https://skillicons.dev/icons?i=githubactions" xlink:href="https://skillicons.dev/icons?i=githubactions" x="810" y="410" width="27" height="27"/>
+      <text x="823" y="451">GitHub Actions</text>
+    </g>
+  </g>
+
+  <line x1="30" y1="296" x2="536" y2="296" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+  <line x1="624" y1="296" x2="1130" y2="296" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+  <text x="580" y="300" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" letter-spacing="2" fill="#6d6486">&#9670; PRODUCTION SYSTEMS SPEC &#9670;</text>
+
+  <line x1="30" y1="560" x2="1130" y2="560" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+  <text x="30" y="622" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" letter-spacing="1.5" fill="#6d6486">// 4 DOMAINS · CORE + AI + DATA + INFRA</text>
+  <text x="1130" y="622" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" letter-spacing="2" fill="#ff00d9" opacity="0.75">SPEC_01</text>
+
+  <!-- system scanline sweep -->
+  <g clip-path="url(#st-clip)">
+    <rect x="1" y="-60" width="1158" height="60" fill="url(#st-scan)">
+      <animate attributeName="y" values="-60;640" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

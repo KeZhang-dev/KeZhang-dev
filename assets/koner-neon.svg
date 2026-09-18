@@ -26,6 +26,11 @@
     <clipPath id="kn-clip">
       <rect x="1" y="1" width="598" height="478" rx="18"/>
     </clipPath>
+    <linearGradient id="kn-scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ffe7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00ffe7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00ffe7" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
   <rect x="1" y="1" width="598" height="478" rx="18" fill="url(#kn-sky)" stroke="#ff00d9" stroke-opacity="0.35"/>
@@ -58,7 +63,10 @@
   <text x="300" y="93" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" letter-spacing="1.5" fill="#e8e6ff">USER</text>
 
   <!-- AGENT (glow core) -->
-  <circle cx="300" cy="196" r="90" fill="url(#kn-core)" filter="url(#kn-bigglow)"/>
+  <circle cx="300" cy="196" r="90" fill="url(#kn-core)" filter="url(#kn-bigglow)">
+    <animate attributeName="r" values="90;102;90" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
   <rect x="220" y="166" width="160" height="60" rx="10" fill="#12002c" stroke="url(#kn-accent)" stroke-width="2" filter="url(#kn-glow)"/>
   <text x="300" y="192" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="17" font-weight="700" fill="#fff8e7">AGENT</text>
   <text x="300" y="209" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="9" letter-spacing="0.5" fill="#00ffe7">LLM TOOL-CALLING LOOP</text>
@@ -83,4 +91,11 @@
   <text x="40" y="456" font-family="'JetBrains Mono',Consolas,monospace" font-size="9.5" letter-spacing="1.5" fill="#8f7fae">GEMINI API · EF CORE</text>
 
   <text x="570" y="456" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" letter-spacing="2" fill="#ff00d9" opacity="0.8">FIG. 01</text>
+
+  <!-- system scanline sweep -->
+  <g clip-path="url(#kn-clip)">
+    <rect x="1" y="-50" width="598" height="50" fill="url(#kn-scan)">
+      <animate attributeName="y" values="-50;480" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>
