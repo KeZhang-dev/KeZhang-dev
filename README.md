@@ -22,9 +22,9 @@ I'm a software developer focused on **backend and AI agent development** — tur
 
 LLM tool-calling agent that reads a user's time records, holds context, and proposes schedule changes for approval.
 
-<img src="assets/tech/dotnet.png" width="40" height="40" alt="ASP.NET Core"> <img src="assets/tech-custom/gemini.svg" width="40" height="40" alt="Gemini API"> <img src="assets/tech/postgresql.png" width="40" height="40" alt="PostgreSQL"> <img src="assets/tech-custom/ef-core.svg" width="40" height="40" alt="EF Core"> <img src="assets/tech/docker.png" width="40" height="40" alt="Docker"> <img src="assets/tech/githubactions.png" width="40" height="40" alt="GitHub Actions">
+<img src="assets/tech/dotnet.png" width="40" height="40" alt="ASP.NET Core"> <img src="assets/tech-dev/dev_gemini.svg" width="40" height="40" alt="Gemini API"> <img src="assets/tech/postgresql.png" width="40" height="40" alt="PostgreSQL"> <img src="assets/tech-custom/ef-core.svg" width="40" height="40" alt="EF Core"> <img src="assets/tech/docker.png" width="40" height="40" alt="Docker"> <img src="assets/tech/githubactions.png" width="40" height="40" alt="GitHub Actions">
 
-<sub>ASP.NET Core · Gemini API · PostgreSQL · EF Core · Docker · GitHub Actions</sub>
+<br/>
 
 [![View Project](assets/cta-view-project.svg)](https://green-meadow-07a664610.3.azurestaticapps.net/)
 
@@ -39,7 +39,7 @@ Travel community platform from the Microsoft Student Accelerator 2026 internship
 
 <img src="assets/tech/dotnet.png" width="40" height="40" alt="ASP.NET Core"> <img src="assets/tech-custom/ef-core.svg" width="40" height="40" alt="EF Core"> <img src="assets/tech/react.png" width="40" height="40" alt="React"> <img src="assets/tech/typescript.png" width="40" height="40" alt="TypeScript">
 
-<sub>ASP.NET Core · EF Core · React · TypeScript</sub>
+<br/>
 
 [![View Project](assets/cta-view-project.svg)](https://footprint-v2-client.onrender.com/)
 
@@ -56,7 +56,7 @@ Genetics data platform for dairy decisions — synced 20,000+ bull records; ship
 
 <img src="assets/tech/csharp.png" width="40" height="40" alt="C#"> <img src="assets/tech/dotnet.png" width="40" height="40" alt=".NET"> <img src="assets/tech-custom/sql.svg" width="40" height="40" alt="SQL"> <img src="assets/tech/git.png" width="40" height="40" alt="Git">
 
-<sub>C# · .NET · SQL · Git</sub>
+<br/>
 
 [![View Project](assets/cta-view-project.svg)](https://wingman.pythonanywhere.com/)
 
@@ -69,7 +69,7 @@ Genetics data platform for dairy decisions — synced 20,000+ bull records; ship
 
 More projects are in active development — this slot updates soon.
 
-<br/><br/>
+<br/><br/><br/><br/>
 
 <sub><code>[ // IN_PROGRESS ]</code></sub>
 
@@ -81,7 +81,7 @@ More projects are in active development — this slot updates soon.
 
 ## 🛠️  ENGINEERING STACK
 
-<img src="assets/stack-console.svg" alt="Engineering stack — Frontend, Backend, Data, AI/ML, Cloud and DevOps, Tools and Workflow technologies" width="100%">
+<img src="assets/stack-console.svg" alt="Engineering stack — Communication, Version Control, Tools, Web Dev, UI/UX, JavaScript, C#, Python, Database, DevOps, Cloud, and AI technologies" width="100%">
 
 <br/>
 
@@ -94,9 +94,3 @@ More projects are in active development — this slot updates soon.
 <br/>
 
 <img src="assets/footer-neon.svg" alt="System status online. Building practical AI-powered systems." width="100%">
-
-<div align="center">
-
-[GITHUB](https://github.com/KeZhang-dev) &nbsp;·&nbsp; [LINKEDIN](https://www.linkedin.com/in/kezhang/) &nbsp;·&nbsp; [EMAIL](mailto:kzhangdevnz@gmail.com)
-
-</div>

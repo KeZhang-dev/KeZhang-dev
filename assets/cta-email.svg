@@ -9,7 +9,7 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect x="1.5" y="1.5" width="207" height="41" rx="8" fill="#12002c" stroke="url(#cta5-border)" stroke-width="1.6" filter="url(#cta5-glow)">
+  <rect x="1.5" y="1.5" width="207" height="41" rx="20" fill="#12002c" stroke="url(#cta5-border)" stroke-width="1.6" filter="url(#cta5-glow)">
     <animate attributeName="stroke-width" values="1.6;2.1;1.6" dur="2.4s" repeatCount="indefinite"/>
   </rect>
   <circle cx="22" cy="22" r="3.5" fill="#00ffe7">
