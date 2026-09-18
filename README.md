@@ -2,69 +2,76 @@
 
 I'm a software developer focused on **backend and AI agent development** — turning user and business needs into working systems with C#/.NET, APIs, databases, cloud services, and LLMs, including designing and building LLM-driven agent workflows end to end. I like taking ownership of a problem, working independently, and staying close to stakeholders while I build it.
 
+<div align="center">
+
+[![Portfolio](assets/cta-portfolio.svg)](https://www.linkedin.com/in/kezhang/) &nbsp; [![LinkedIn](assets/cta-linkedin.svg)](https://www.linkedin.com/in/kezhang/) &nbsp; [![Email](assets/cta-email.svg)](mailto:kzhangdevnz@gmail.com)
+
+</div>
 
 <br/>
 
-## ⚡ SELECTED_WORK
+## ⚡ SELECTED WORK
 
 <table>
 <tr>
-<td width="56%" valign="top">
+<td width="50%" valign="top">
 
-<sub><code>[ 01 // FEATURED ]</code></sub>
+<sub><code>[ 01 ]</code></sub>
 
-**🤖 KONER Agent** &nbsp;
+**🤖 KONER Agent**
 
-An LLM tool-calling agent that reads a user's time records, holds conversational context, and proposes schedule changes that require the user's approval before anything actually changes.
+LLM tool-calling agent that reads a user's time records, holds context, and proposes schedule changes for approval.
 
-- Agent loop on the Gemini API — tool selection, execution, and context-aware responses
-- Reusable agent tools wired to **PostgreSQL via EF Core** for user-scoped time-record retrieval
-- Persistent user memory and conversation history across sessions
-- Dockerized; GitHub Actions deploys to Azure on every push
+<img src="assets/tech/dotnet.png" width="40" height="40" alt="ASP.NET Core"> <img src="assets/tech-custom/gemini.svg" width="40" height="40" alt="Gemini API"> <img src="assets/tech/postgresql.png" width="40" height="40" alt="PostgreSQL"> <img src="assets/tech-custom/ef-core.svg" width="40" height="40" alt="EF Core"> <img src="assets/tech/docker.png" width="40" height="40" alt="Docker"> <img src="assets/tech/githubactions.png" width="40" height="40" alt="GitHub Actions">
 
-<sub>`[ ASP.NET Core ]` `[ Gemini API ]` `[ PostgreSQL ]` `[ EF Core ]` `[ Docker ]` `[ GitHub Actions ]`</sub>
+<sub>ASP.NET Core · Gemini API · PostgreSQL · EF Core · Docker · GitHub Actions</sub>
 
-[![Live System](assets/cta-live-system.svg)](https://green-meadow-07a664610.3.azurestaticapps.net/)
+[![View Project](assets/cta-view-project.svg)](https://green-meadow-07a664610.3.azurestaticapps.net/)
 
 </td>
-<td width="44%" valign="top" align="center">
-
-<img src="assets/koner-neon.svg" alt="KONER system architecture: user to agent, fanning out to tools, memory and data, data to PostgreSQL" width="100%">
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<table>
-<tr>
 <td width="50%" valign="top">
 
 <sub><code>[ 02 ]</code></sub>
 
-**🌍 Footprint v2** &nbsp;
+**🌍 Footprint v2**
 
-Online travel community platform built during the Microsoft Student Accelerator 2026 internship — RESTful APIs, JWT authentication, RBAC, post sharing, city collections, and gamification (points, leaderboards, achievement badges).
+Travel community platform from the Microsoft Student Accelerator 2026 internship — RESTful APIs, JWT auth, RBAC, gamification.
 
-<sub>`[ ASP.NET Core ]` `[ EF Core ]` `[ React ]` `[ TypeScript ]`</sub>
+<img src="assets/tech/dotnet.png" width="40" height="40" alt="ASP.NET Core"> <img src="assets/tech-custom/ef-core.svg" width="40" height="40" alt="EF Core"> <img src="assets/tech/react.png" width="40" height="40" alt="React"> <img src="assets/tech/typescript.png" width="40" height="40" alt="TypeScript">
+
+<sub>ASP.NET Core · EF Core · React · TypeScript</sub>
 
 [![View Project](assets/cta-view-project.svg)](https://footprint-v2-client.onrender.com/)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 <sub><code>[ 03 ]</code></sub>
 
-**🧬 Wingman Ltd** &nbsp;
+**🧬 Wingman Ltd**
 
-Genetics data platform for dairy decision-making. Synced 20,000+ bull records from external sources and shipped favourites, genetic-parameter comparison, and an email-based consultation workflow.
+Genetics data platform for dairy decisions — synced 20,000+ bull records; shipped the Phase 1 MVP (6 features).
 
-<sub>`[ C# ]` `[ .NET ]` `[ SQL ]` `[ Git ]`</sub>
+<img src="assets/tech/csharp.png" width="40" height="40" alt="C#"> <img src="assets/tech/dotnet.png" width="40" height="40" alt=".NET"> <img src="assets/tech-custom/sql.svg" width="40" height="40" alt="SQL"> <img src="assets/tech/git.png" width="40" height="40" alt="Git">
 
-Shipped the Phase 1 MVP — 6 independently built features.
+<sub>C# · .NET · SQL · Git</sub>
 
-[![Open Project](assets/cta-open-project.svg)](https://wingman.pythonanywhere.com/)
+[![View Project](assets/cta-view-project.svg)](https://wingman.pythonanywhere.com/)
+
+</td>
+<td width="50%" valign="top">
+
+<sub><code>[ 04 ]</code></sub>
+
+**🧩 More Work**
+
+More projects are in active development — this slot updates soon.
+
+<br/><br/>
+
+<sub><code>[ // IN_PROGRESS ]</code></sub>
 
 </td>
 </tr>
@@ -72,9 +79,9 @@ Shipped the Phase 1 MVP — 6 independently built features.
 
 <br/>
 
-## 🛠️  ENGINEERING_STACK
+## 🛠️  ENGINEERING STACK
 
-<img src="assets/stack-console.svg" alt="Engineering stack: Frontend — React, TypeScript, Next.js, Tailwind CSS. Backend — C#, .NET, ASP.NET Core, EF Core, REST APIs, JWT. Data — SQL, PostgreSQL, MySQL, SQLite. AI/ML — LLM integration, AI agents, tool calling, RAG, Gemini API, Azure OpenAI. Cloud & DevOps — Azure, Docker, GitHub Actions. Tools & Workflow — Git, GitHub, Postman, Linux, Swagger, Claude Code, Cursor, GitHub Copilot, Agile, Scrum, Jira." width="100%">
+<img src="assets/stack-console.svg" alt="Engineering stack — Frontend, Backend, Data, AI/ML, Cloud and DevOps, Tools and Workflow technologies" width="100%">
 
 <br/>
 

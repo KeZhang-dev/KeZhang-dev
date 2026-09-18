@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 44" width="210" height="44" role="img" aria-label="Email">
+  <defs>
+    <linearGradient id="cta5-border" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="210" y2="44">
+      <stop offset="0%" stop-color="#ff00d9"/>
+      <stop offset="100%" stop-color="#00ffe7"/>
+    </linearGradient>
+    <filter id="cta5-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1.5" y="1.5" width="207" height="41" rx="8" fill="#12002c" stroke="url(#cta5-border)" stroke-width="1.6" filter="url(#cta5-glow)">
+    <animate attributeName="stroke-width" values="1.6;2.1;1.6" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="22" cy="22" r="3.5" fill="#00ffe7">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="36" y="26" font-family="'JetBrains Mono',Consolas,monospace" font-size="12.5" letter-spacing="1.5" fill="#fff8e7">EMAIL ↗</text>
+</svg>

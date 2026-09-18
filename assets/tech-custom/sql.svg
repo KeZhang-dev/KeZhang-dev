@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" width="52" height="52" role="img" aria-label="SQL">
+  <g stroke="#00ffe7" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="26" cy="13" rx="20" ry="7"/>
+    <path d="M6 13 V37 a20 7 0 0 0 40 0 V13"/>
+    <path d="M6 25 a20 7 0 0 0 40 0" fill="none"/>
+  </g>
+</svg>
