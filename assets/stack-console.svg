@@ -39,23 +39,49 @@
     <line x1="30" y1="106" x2="150" y2="106" stroke="#00ffe7" stroke-opacity="0.6" stroke-width="1.5"/>
 
     <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#d9d6f0" text-anchor="middle">
-      <image href="https://skillicons.dev/icons?i=cs" xlink:href="https://skillicons.dev/icons?i=cs" x="30" y="130" width="27" height="27"/>
+      <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c%23.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c%23.png" x="30" y="130" width="27" height="27"/>
       <text x="43" y="171">C#</text>
 
-      <image href="https://skillicons.dev/icons?i=dotnet" xlink:href="https://skillicons.dev/icons?i=dotnet" x="135" y="130" width="27" height="27"/>
+      <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/_net_core.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/_net_core.png" x="135" y="130" width="27" height="27"/>
       <text x="148" y="171">.NET</text>
 
-      <image href="https://skillicons.dev/icons?i=py" xlink:href="https://skillicons.dev/icons?i=py" x="240" y="130" width="27" height="27"/>
+      <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" x="240" y="130" width="27" height="27"/>
       <text x="253" y="171">Python</text>
 
-      <image href="https://skillicons.dev/icons?i=ts" xlink:href="https://skillicons.dev/icons?i=ts" x="345" y="130" width="27" height="27"/>
+      <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/typescript.png" x="345" y="130" width="27" height="27"/>
       <text x="358" y="171">TypeScript</text>
     </g>
 
-    <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#9a8fc4">
-      <text x="30" y="200">[ ASP.NET Core ]&#160;&#160;[ EF Core ]&#160;&#160;[ REST APIs ]</text>
-      <text x="30" y="220">[ JWT ]&#160;&#160;[ SQL ]</text>
+    <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/_net_core.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/_net_core.png" x="30" y="188" width="27" height="27"/>
+    <text x="43" y="228" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#d9d6f0">ASP.NET</text>
+
+    <!-- EF Core glyph: data table -->
+    <g transform="translate(135,188)" stroke="#00ffe7" fill="none" stroke-width="1.4">
+      <rect x="2" y="3" width="23" height="21" rx="2"/>
+      <line x1="2" y1="10" x2="25" y2="10"/>
+      <line x1="2" y1="17" x2="25" y2="17"/>
+      <line x1="13.5" y1="3" x2="13.5" y2="24"/>
     </g>
+    <text x="148" y="228" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#d9d6f0">EF CORE</text>
+
+    <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/rest.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/rest.png" x="240" y="188" width="27" height="27"/>
+    <text x="253" y="228" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#d9d6f0">REST API</text>
+
+    <!-- JWT glyph: padlock -->
+    <g transform="translate(345,188)" stroke="#00ffe7" fill="none" stroke-width="1.5">
+      <rect x="5" y="12" width="17" height="13" rx="2"/>
+      <path d="M8.5 12 V8 a5 5 0 0 1 10 0 V12"/>
+      <circle cx="13.5" cy="18" r="2" fill="#00ffe7" stroke="none"/>
+    </g>
+    <text x="358" y="228" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#d9d6f0">JWT</text>
+
+    <!-- SQL glyph: database cylinder (catalog's only SQL icon, mssql, has an opaque white background that breaks the dark theme) -->
+    <g transform="translate(450,188)" stroke="#00ffe7" fill="none" stroke-width="1.5">
+      <ellipse cx="13.5" cy="7" rx="11" ry="4"/>
+      <path d="M2.5 7 V20 a11 4 0 0 0 22 0 V7"/>
+      <path d="M2.5 13.5 a11 4 0 0 0 22 0" fill="none"/>
+    </g>
+    <text x="463" y="228" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#d9d6f0">SQL</text>
   </g>
 
   <!-- ===================== AI_LAYER ===================== -->
@@ -106,13 +132,24 @@
     </g>
     <text x="928" y="171" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">RAG</text>
 
-    <image href="https://skillicons.dev/icons?i=azure" xlink:href="https://skillicons.dev/icons?i=azure" x="1020" y="130" width="27" height="27"/>
+    <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/microsoft_azure.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/microsoft_azure.png" x="1020" y="130" width="27" height="27"/>
     <text x="1033" y="171" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">AZURE</text>
     <text x="1033" y="183" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">OPENAI</text>
 
-    <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#c98fd6">
-      <text x="600" y="210">[ OpenAI API ]&#160;&#160;[ Gemini API ]</text>
+    <!-- OpenAI glyph: abstract spark -->
+    <g transform="translate(600,188)" stroke="#ff00d9" fill="none" stroke-width="1.5" stroke-linecap="round">
+      <line x1="13.5" y1="2" x2="13.5" y2="25"/>
+      <line x1="2" y1="13.5" x2="25" y2="13.5"/>
+      <line x1="5.5" y1="5.5" x2="21.5" y2="21.5"/>
+      <line x1="21.5" y1="5.5" x2="5.5" y2="21.5"/>
     </g>
+    <text x="613" y="228" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">OPENAI</text>
+
+    <!-- Gemini glyph: abstract sparkle -->
+    <g transform="translate(705,188)" fill="#ff00d9" stroke="none">
+      <path d="M13.5 2 C14.5 9 17 11.5 24 13.5 C17 15.5 14.5 18 13.5 25 C12.5 18 10 15.5 3 13.5 C10 11.5 12.5 9 13.5 2 Z"/>
+    </g>
+    <text x="718" y="228" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="10" fill="#e8b8f0">GEMINI</text>
   </g>
 
   <!-- ===================== DATA_LAYER ===================== -->
@@ -121,13 +158,13 @@
     <line x1="30" y1="386" x2="150" y2="386" stroke="#00ffe7" stroke-opacity="0.6" stroke-width="1.5"/>
 
     <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#d9d6f0" text-anchor="middle">
-      <image href="https://skillicons.dev/icons?i=postgres" xlink:href="https://skillicons.dev/icons?i=postgres" x="30" y="410" width="27" height="27"/>
+      <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postgresql.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postgresql.png" x="30" y="410" width="27" height="27"/>
       <text x="43" y="451">PostgreSQL</text>
 
-      <image href="https://skillicons.dev/icons?i=mysql" xlink:href="https://skillicons.dev/icons?i=mysql" x="135" y="410" width="27" height="27"/>
+      <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mysql.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mysql.png" x="135" y="410" width="27" height="27"/>
       <text x="148" y="451">MySQL</text>
 
-      <image href="https://skillicons.dev/icons?i=sqlite" xlink:href="https://skillicons.dev/icons?i=sqlite" x="240" y="410" width="27" height="27"/>
+      <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlite.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlite.png" x="240" y="410" width="27" height="27"/>
       <text x="253" y="451">SQLite</text>
     </g>
   </g>
@@ -138,10 +175,10 @@
     <line x1="600" y1="386" x2="740" y2="386" stroke="#00ffe7" stroke-opacity="0.6" stroke-width="1.5"/>
 
     <g font-family="'JetBrains Mono',Consolas,monospace" font-size="10.5" fill="#d9d6f0" text-anchor="middle">
-      <image href="https://skillicons.dev/icons?i=azure" xlink:href="https://skillicons.dev/icons?i=azure" x="600" y="410" width="27" height="27"/>
+      <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/microsoft_azure.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/microsoft_azure.png" x="600" y="410" width="27" height="27"/>
       <text x="613" y="451">Azure</text>
 
-      <image href="https://skillicons.dev/icons?i=docker" xlink:href="https://skillicons.dev/icons?i=docker" x="705" y="410" width="27" height="27"/>
+      <image href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" xlink:href="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" x="705" y="410" width="27" height="27"/>
       <text x="718" y="451">Docker</text>
 
       <image href="https://skillicons.dev/icons?i=githubactions" xlink:href="https://skillicons.dev/icons?i=githubactions" x="810" y="410" width="27" height="27"/>
