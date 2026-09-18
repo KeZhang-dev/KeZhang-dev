@@ -28,7 +28,7 @@ I'm a software developer focused on **backend and AI agent development** — tur
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://wingman.pythonanywhere.com/"><img src="assets/card-wingman.svg" alt="Wingman Ltd" width="100%"></a>
+<a href="https://wingman.pythonanywhere.com/"><img src="assets/card-wingman.svg" alt="Wingman" width="100%"></a>
 
 </td>
 <td width="50%" valign="top">
