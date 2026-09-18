@@ -16,62 +16,24 @@ I'm a software developer focused on **backend and AI agent development** — tur
 <tr>
 <td width="50%" valign="top">
 
-<sub><code>[ 01 ]</code></sub>
-
-**🤖 KONER Agent**
-
-LLM tool-calling agent that reads a user's time records, holds context, and proposes schedule changes for approval.
-
-<img src="assets/tech/dotnet.png" width="40" height="40" alt="ASP.NET Core"> <img src="assets/tech-dev/dev_gemini.svg" width="40" height="40" alt="Gemini API"> <img src="assets/tech/postgresql.png" width="40" height="40" alt="PostgreSQL"> <img src="assets/tech-custom/ef-core.svg" width="40" height="40" alt="EF Core"> <img src="assets/tech/docker.png" width="40" height="40" alt="Docker"> <img src="assets/tech/githubactions.png" width="40" height="40" alt="GitHub Actions">
-
-<br/>
-
-[![View Project](assets/cta-view-project.svg)](https://green-meadow-07a664610.3.azurestaticapps.net/)
+<a href="https://green-meadow-07a664610.3.azurestaticapps.net/"><img src="assets/card-koner.svg" alt="KONER Agent" width="100%"></a>
 
 </td>
 <td width="50%" valign="top">
 
-<sub><code>[ 02 ]</code></sub>
-
-**🌍 Footprint v2**
-
-Travel community platform from the Microsoft Student Accelerator 2026 internship — RESTful APIs, JWT auth, RBAC, gamification.
-
-<img src="assets/tech/dotnet.png" width="40" height="40" alt="ASP.NET Core"> <img src="assets/tech-custom/ef-core.svg" width="40" height="40" alt="EF Core"> <img src="assets/tech/react.png" width="40" height="40" alt="React"> <img src="assets/tech/typescript.png" width="40" height="40" alt="TypeScript">
-
-<br/>
-
-[![View Project](assets/cta-view-project.svg)](https://footprint-v2-client.onrender.com/)
+<a href="https://footprint-v2-client.onrender.com/"><img src="assets/card-footprint.svg" alt="Footprint v2" width="100%"></a>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<sub><code>[ 03 ]</code></sub>
-
-**🧬 Wingman Ltd**
-
-Genetics data platform for dairy decisions — synced 20,000+ bull records; shipped the Phase 1 MVP (6 features).
-
-<img src="assets/tech/csharp.png" width="40" height="40" alt="C#"> <img src="assets/tech/dotnet.png" width="40" height="40" alt=".NET"> <img src="assets/tech-custom/sql.svg" width="40" height="40" alt="SQL"> <img src="assets/tech/git.png" width="40" height="40" alt="Git">
-
-<br/>
-
-[![View Project](assets/cta-view-project.svg)](https://wingman.pythonanywhere.com/)
+<a href="https://wingman.pythonanywhere.com/"><img src="assets/card-wingman.svg" alt="Wingman Ltd" width="100%"></a>
 
 </td>
 <td width="50%" valign="top">
 
-<sub><code>[ 04 ]</code></sub>
-
-**🧩 More Work**
-
-More projects are in active development — this slot updates soon.
-
-<br/><br/><br/><br/>
-
-<sub><code>[ // IN_PROGRESS ]</code></sub>
+<img src="assets/card-placeholder.svg" alt="More Work — coming soon" width="100%">
 
 </td>
 </tr>
