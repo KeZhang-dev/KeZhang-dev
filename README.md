@@ -33,7 +33,7 @@ I'm a software developer focused on **backend and AI agent development** — tur
 </td>
 <td width="50%" valign="top">
 
-<img src="assets/card-placeholder.svg" alt="More Work — coming soon" width="100%">
+<a href="http://13.238.249.98/"><img src="assets/card-lingohub.svg" alt="LingoHub" width="100%"></a>
 
 </td>
 </tr>
