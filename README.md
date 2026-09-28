@@ -4,7 +4,11 @@ I'm a software developer focused on **backend and AI agent development** — tur
 
 <div align="center">
 
-[![Portfolio](assets/cta-portfolio.svg)](https://kz-portfolio.proudocean-4ea5e0e0.newzealandnorth.azurecontainerapps.io/) &nbsp; [![LinkedIn](assets/cta-linkedin.svg)](https://www.linkedin.com/in/kezhang/) &nbsp; [![Email](assets/cta-email.svg)](https://kezhang-dev.github.io/KeZhang-dev/email/)
+[![Portfolio](assets/cta-portfolio.svg)](https://kz-portfolio.proudocean-4ea5e0e0.newzealandnorth.azurecontainerapps.io/) &nbsp; [![LinkedIn](assets/cta-linkedin.svg)](https://www.linkedin.com/in/kezhang/)
+
+```text
+kzhangdevnz@gmail.com
+```
 
 </div>
 
